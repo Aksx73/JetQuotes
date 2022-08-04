@@ -112,7 +112,7 @@ dependencies {
 
     // Room
     implementation("androidx.room:room-runtime:${rootProject.extra["roomVersion"]}")
-    kapt("org.xerial:sqlite-jdbc:3.34.0")
+    kapt("org.xerial:sqlite-jdbc:3.39.2.0")
     kapt("androidx.room:room-compiler:${rootProject.extra["roomVersion"]}")
     implementation("androidx.room:room-ktx:${rootProject.extra["roomVersion"]}")
 
